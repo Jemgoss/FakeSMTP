@@ -34,7 +34,7 @@ public final class MailListener implements SimpleMessageListener {
 	 * @return always return {@code true}
 	 */
 	public boolean accept(String from, String recipient) {
-		return true;
+	    return !recipient.equals("nonexistent@recipient.net");
 	}
 
     /**

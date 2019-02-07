@@ -18,3 +18,5 @@ target/*
 # Received emails folder
 received-emails/*
 emails-recus/*
+/bin/
+/target/
